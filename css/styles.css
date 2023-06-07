@@ -1,0 +1,331 @@
+:root {
+  --blue-color: #2196f3;
+  --body-text: #757575;
+  --like-black: #212121;
+  --white: #ffffff;
+}
+
+body {
+  font-size: 16px;
+  background-color: var(--white);
+  color: var(--body-text);
+  font-family: "Roboto", sans-serif;
+}
+.heder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+.navig {
+  display: flex;
+  align-items: center;
+}
+.list-header {
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--like-black);
+  text-decoration: none;
+  margin-left: 2em;
+  padding: 1em;
+}
+
+.menu {
+  display: flex;
+}
+
+.list-contact {
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--body-text);
+  padding: 1em;
+}
+/* Псевдоклас  */
+.list-header:hover {
+  color: var(--blue-color);
+}
+.list-header:focus {
+  color: var(--blue-color);
+}
+.list-contact:hover {
+  color: var(--blue-color);
+}
+.list-contact:focus {
+  color: var(--blue-color);
+}
+.aadress:hover {
+  color: var(--blue-color);
+}
+.aadress:focus {
+  color: var(--blue-color);
+}
+
+.addresso:hover {
+  color: var(--blue-color);
+}
+.addresso:focus {
+  color: var(--blue-color);
+}
+/* end Псевдоклас  */
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--blue-color);
+  text-decoration: none;
+  margin-left: 1.5em;
+}
+.logostudio {
+  color: var(--like-black);
+}
+.logofoot {
+  color: var(--white);
+}
+.current {
+  color: var(--blue-color);
+}
+
+/* hero */
+
+.background-color {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 53%,
+    rgba(0, 212, 255, 1) 100%
+  );
+
+  padding: 5em;
+}
+
+.hero {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.divbutton {
+  display: flex;
+  justify-content: center;
+}
+
+.mainbutton {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--white);
+  background-color: var(--blue-color);
+  border-radius: 4px;
+  border-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.mainbutton:hover {
+  background-color: rgb(53, 79, 225);
+}
+
+/* visually-hidden */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/* END visually-hidden */
+
+/* our features */
+.yvaga {
+  display: flex;
+  margin: 2rem;
+}
+.ourfeat {
+  padding: 2em;
+}
+ul {
+  list-style: none;
+}
+
+.features {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--like-black);
+}
+
+.bodytext {
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+}
+
+/* Чим ми займаємося */
+.box {
+  margin-right: 1.3rem;
+  margin-bottom: 4em;
+}
+
+.shadow {
+  border-radius: 0.4em;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.secondheader {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--like-black);
+}
+
+.nameso {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--like-black);
+}
+
+.names {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--like-black);
+}
+.names:hover {
+  color: var(--white);
+  background-color: var(--blue-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.namesopus {
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Наша команда */
+.comanda {
+  display: flex;
+}
+/* Наша команда */
+
+/* footer */
+.footer {
+  background-color: #2f303a;
+  padding-top: 2.5em;
+  padding-bottom: 2em;
+}
+
+.aadress {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white);
+}
+
+address {
+  font-style: normal;
+}
+
+.addresso {
+  font-family: inherit;
+  color: var(--body-text);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+/* portfolio page */
+/* оформлення tabs */
+.tabs {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  border-color: transparent;
+  padding: 10px 20px;
+  margin: 8px;
+  cursor: pointer;
+}
+.tablis {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+.portcard {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  --border: solid #212121 2px;
+}
+.portli {
+  border: 1px solid #eeeeee;
+  margin: 1em;
+  padding-bottom: 1em;
+  background-color: var(--white);
+}
+h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--like-black);
+  padding-left: 1em;
+}
+.parag {
+  padding-left: 1em;
+
+  padding-top: none;
+  margin: none;
+}
+
+.posit {
+  display: flex;
+  background-color: #2f303a;
+  height: 5em;
+  z-index: -10;
+  width: 100%;
+  margin-top: -5em;
+}
+
+.livi {
+  padding-left: 5em;
+}
